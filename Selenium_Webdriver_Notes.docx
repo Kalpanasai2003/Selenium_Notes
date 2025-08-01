@@ -1,1 +1,21 @@
 WebDriver Methods
+1.get(String URL)
+ driver.get("https://www.google.com");
+2.getTitle()
+  String title = driver.getTitle();
+3.getCurrentUrl()
+   String url = driver.getCurrentUrl();
+4.getPageSource()
+   String source = driver.getPageSource();
+5.close()
+    driver.close();
+6.quit()
+   driver.quit();
+7.navigate().to(String URL)
+    driver.navigate().to("https://example.com");
+8.navigate().back()
+    driver.navigate().back();
+9.navigate().forward()
+      driver.navigate().forward();
+10.navigate().refresh()
+driver.navigate().refresh();
