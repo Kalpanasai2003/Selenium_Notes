@@ -1,0 +1,17 @@
+Types of Locators in Selenium
+1. ID 
+    driver.findElement(By.id("username"));
+2. NAME
+    driver.findElement(By.name("password"));
+3.CLASS NAME 
+    driver.findElement(By.classname("input-field"));
+4. TAG NAME 
+   List<WebElement> links = driver.findElement(By.tagname("a"));
+5. LINK TEXT 
+    driver.findElement(By.linktext("Click Here"));
+6. PARTIAL LINK TEXT 
+    driver.findElement(By.partiallinktext("Click"));
+7. XPATH 
+     driver.findElement(By.xpath("//input[@id='email']"));
+8. CSS SELECTOR
+    driver.findElement(By.cssSelector("input[type ='text']"));
